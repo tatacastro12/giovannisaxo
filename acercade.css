@@ -1,0 +1,97 @@
+body {
+    margin: 0; /* Elimina los márgenes del cuerpo de la página */
+    padding: 0; /* Elimina el relleno del cuerpo de la página */
+    background: rgb(223, 205, 129)
+}
+  
+  
+  header{
+    background-color:rgb(12, 12, 11); /* Color de fondo del encabezado */
+    padding: 20px; /* Espacio interno en el encabezado */
+    
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;  
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(223, 205, 129);
+}
+
+li:hover a {
+    color: rgb(231, 231, 217); /* Cambia el color del texto en hover */
+}
+
+.footer-container {
+    background-color: rgb(12, 12, 11);
+    color:  rgb(223, 205, 129);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-left h2 {
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    margin: 5px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    text-align: center;
+    flex: 0 0 calc(33.33% - 20px);
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+}
+
+.image-container p {
+    margin-top: 10px;
+}
